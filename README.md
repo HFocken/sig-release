@@ -4,17 +4,17 @@
 
 Welcome to SIG-Release, home of release and feature management. If you are new to this repository, you might find the getting started guide useful. If you are interested in the current state of planning, have a look at our Release Planning Board.
 
-[Catena-X Standards](https://catena-x.net/de/standard-library) are the foundation for certifying any software product operating in the Catena-X data space. Those standards are the binding reference to obtain a valid certificate.
+[Catena-X Standards](https://catena-x.net/de/standard-library) are the foundation for certifying any software product operating in the Catena-X data space. Those standards are the binding reference to obtain a valid certificate. Catena-X Standards are released by the [Catena-X Association](https://catena-x.net/en/).
 
-To make adopting the latest [Catena-X Standards](https://catena-x.net/de/standard-library) easier, reference implementations are provided through the Eclipse Tractus-X Project
+To make adopting the latest [Catena-X Standards](https://catena-x.net/de/standard-library) easier, complementary reference implementations are provided and maintained through the Eclipse Tractus-X Project as the official open-source project in the Catena-X ecosystem.
 
 ## Release Cycle - major vs. minor release
 
 Tractus-X operates on a quarterly release cycle. Each quarter, a new [Tractus-X release](docs/tractus-x-release.md) following [CalVer](https://calver.org) is released.
 
-Each Tractus-X release contains [multiple products](docs/product_release.md).
+Each Tractus-X release contains [multiple products](docs/product_release.md), e.g. the reference implementations mentioned above.
 
-Once per year, Tractus-X releases a major release, making the remaining three releases minor releases. A major release may contain critical breaking changes that have a major impact on data space participants, such as changes to enablement services. A minor release contains backward compatible functionality. In addition, patch versions provide backward compatible bug and security fixes.
+Once per year, Tractus-X releases a major release, making the remaining three releases minor releases. A major release may contain critical breaking changes that have a major impact on data space participants, such as changes to enablement services. A minor release contains backward compatible functionality. In addition, patch versions provide backward compatible bug and security fixes. For a more detailed viewpoint, consider the applied semantic [version scheme](https://semver.org).
 
 Please check the Change Log(s) for content, known knowns, and backward compatibility since the [calendar versioning scheme](https://calver.org) shows the year and month of release.
 
